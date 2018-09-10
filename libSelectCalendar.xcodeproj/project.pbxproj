@@ -12,6 +12,9 @@
 		83376A9D2145F71100799BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83376A9B2145F71100799BD2 /* Main.storyboard */; };
 		83376A9F2145F71300799BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83376A9E2145F71300799BD2 /* Assets.xcassets */; };
 		83376AA22145F71300799BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83376AA02145F71300799BD2 /* LaunchScreen.storyboard */; };
+		83376AAB2146005A00799BD2 /* PopupDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83376AA92146005A00799BD2 /* PopupDatePicker.swift */; };
+		83376AAC2146005A00799BD2 /* PopupDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83376AAA2146005A00799BD2 /* PopupDatePicker.xib */; };
+		83376AB02146180C00799BD2 /* Calendar+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83376AAF2146180C00799BD2 /* Calendar+Extention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		83376A9E2145F71300799BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83376AA12145F71300799BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83376AA32145F71300799BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83376AA92146005A00799BD2 /* PopupDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDatePicker.swift; sourceTree = "<group>"; };
+		83376AAA2146005A00799BD2 /* PopupDatePicker.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupDatePicker.xib; sourceTree = "<group>"; };
+		83376AAF2146180C00799BD2 /* Calendar+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Extention.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				83376A9E2145F71300799BD2 /* Assets.xcassets */,
 				83376AA02145F71300799BD2 /* LaunchScreen.storyboard */,
 				83376AA32145F71300799BD2 /* Info.plist */,
+				83376AA92146005A00799BD2 /* PopupDatePicker.swift */,
+				83376AAA2146005A00799BD2 /* PopupDatePicker.xib */,
+				83376AAF2146180C00799BD2 /* Calendar+Extention.swift */,
 			);
 			path = libSelectCalendar;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83376AAC2146005A00799BD2 /* PopupDatePicker.xib in Resources */,
 				83376AA22145F71300799BD2 /* LaunchScreen.storyboard in Resources */,
 				83376A9F2145F71300799BD2 /* Assets.xcassets in Resources */,
 				83376A9D2145F71100799BD2 /* Main.storyboard in Resources */,
@@ -137,6 +147,8 @@
 			files = (
 				83376A9A2145F71100799BD2 /* ViewController.swift in Sources */,
 				83376A982145F71100799BD2 /* AppDelegate.swift in Sources */,
+				83376AB02146180C00799BD2 /* Calendar+Extention.swift in Sources */,
+				83376AAB2146005A00799BD2 /* PopupDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CB7NDRZY49;
 				INFOPLIST_FILE = libSelectCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CB7NDRZY49;
 				INFOPLIST_FILE = libSelectCalendar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
